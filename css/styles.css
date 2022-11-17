@@ -68,7 +68,7 @@ img {
     .main-nav-studio {
         display: flex;   
         align-items: center;
-        margin-right: 344px;
+        /* margin-right: 344px; */
     }
     
     .logo-link-studio {
@@ -139,7 +139,8 @@ img {
         line-height: 1.1;
         letter-spacing: 0.02em;
         color: var(--brand-color-three);
-        display: flex;    
+        display: flex;   
+        margin-left: auto; 
     }
     
     .contacts-list-studio {
@@ -468,7 +469,7 @@ img {
  .main-nav-portfolio {
      display: flex;
      align-items: center;
-     margin-right: 344px;
+     /* margin-right: 344px; */
  }
 
  .logo-link-portfolio {
@@ -540,6 +541,7 @@ img {
      letter-spacing: 0.02em;
      color: var(--brand-color-three);
      display: flex;
+     margin-left: auto;
  }
 
  
