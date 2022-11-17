@@ -1,5 +1,6 @@
 :root {
   --brand-color: #2196f3;
+  --color-studio-btn: #188ce8;
   --color-portfolio: #eeeeee;
   --brand-color-two: #757575;
   --brand-color-three: #ffffff;
@@ -201,9 +202,13 @@ img {
   border: none;
   color: var(--brand-color-three);
   font-weight: 700;
-  font-size: 16px;
   line-height: 1.9;
   cursor: pointer;
+}
+
+.solutions-button-studio:hover,
+.solutions-button-studio:focus {
+  background: var(--color-studio-btn);
 }
 
 /* --- SOLUTIONS --- */
@@ -227,7 +232,6 @@ img {
 
 .qualities-title-studio {
   margin-bottom: 10px;
-  font-weight: 700;
   font-size: 14px;
   line-height: 1.1;
   letter-spacing: 0.03em;
@@ -237,7 +241,6 @@ img {
 
 .qualities-text-studio {
   width: 270px;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
@@ -266,7 +269,6 @@ img {
 
 .activity-title-studio {
   margin-bottom: 50px;
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.1;
   text-align: center;
@@ -299,7 +301,6 @@ img {
 .team-title-studio {
   text-align: center;
   margin-bottom: 50px;
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.1;
   letter-spacing: 0.03em;
@@ -337,8 +338,6 @@ img {
 
 .team-specialty-studio {
   text-align: center;
-  font-weight: 400;
-  font-size: 16px;
   line-height: 1.2;
   letter-spacing: 0.03em;
   color: var(--brand-color-two);
@@ -561,7 +560,6 @@ img {
   padding: 6px 22px;
   border-radius: 4px;
   font-weight: 500;
-  font-size: 16px;
   line-height: 1.6;
   letter-spacing: 0.03em;
   color: var(--brand-color-five);
@@ -615,7 +613,6 @@ img {
 
 .works-title-portfolio {
   margin-bottom: 4px;
-  font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
@@ -623,8 +620,6 @@ img {
 }
 
 .works-text-portfolio {
-  font-weight: 400;
-  font-size: 16px;
   line-height: 1.9;
   letter-spacing: 0.03em;
   color: var(--brand-color-two);
