@@ -114,18 +114,14 @@ img {
 
 .link-studio {
   text-decoration: none;
-}
-
-.nav-link-studio {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.1;
-  letter-spacing: 0.02em;
-  color: var(--brand-color-five);
-  text-decoration: none;
+}
+
+.nav-link-studio {
   display: flex;
   align-items: center;
-  width: 281px;
 }
 
 .nav-link-studio .item-studio:not(:last-child) {
@@ -133,9 +129,10 @@ img {
 }
 
 .nav-link-studio .link-studio {
-  display: block;
+  display: inline-block;
   padding-top: 32px;
   padding-bottom: 32px;
+  letter-spacing: 0.02em;
   color: var(--brand-color-five);
 }
 
@@ -154,9 +151,7 @@ img {
 .contacts-studio {
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.1;
   letter-spacing: 0.02em;
-  color: var(--brand-color-three);
   display: flex;
   margin-left: auto;
 }
@@ -185,6 +180,7 @@ img {
 .solutions-studio {
   background: var(--brand-color-six);
   color: var(--brand-color-three);
+  padding: 200px 0px;
 }
 
 .solutions-studio-container {
@@ -195,7 +191,6 @@ img {
 
 .solutions-title-studio {
   max-width: 696px;
-  margin-top: 106px;
   margin-bottom: 30px;
   font-weight: 900;
   font-size: 44px;
@@ -207,9 +202,7 @@ img {
 }
 
 .solutions-button-studio {
-  width: 216px;
-  height: 50px;
-  margin-bottom: 106px;
+  padding: 10px 32px;
   background: var(--brand-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
@@ -236,7 +229,6 @@ img {
 
 .qualities-item-studio {
   display: flex;
-  justify-content: center;
   gap: 30px;
 }
 
@@ -276,7 +268,6 @@ img {
 
 .activity-item-studio {
   display: flex;
-  align-items: center;
   gap: 30px;
 }
 
@@ -464,18 +455,14 @@ img {
 
 .link-portfolio {
   text-decoration: none;
-}
-
-.nav-link-portfolio {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.1;
-  letter-spacing: 0.02em;
-  color: var(--brand-color-five);
-  text-decoration: none;
+}
+
+.nav-link-portfolio {
   display: flex;
   align-items: center;
-  width: 281px;
 }
 
 .nav-link-portfolio .item-portfolio:not(:last-child) {
@@ -483,8 +470,9 @@ img {
 }
 
 .nav-link-portfolio .link-portfolio {
-  display: block;
+  display: inline-block;
   color: var(--brand-color-five);
+  letter-spacing: 0.02em;
   padding-top: 32px;
   padding-bottom: 32px;
 }
@@ -504,9 +492,7 @@ img {
 .contacts-portfolio {
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.1;
   letter-spacing: 0.02em;
-  color: var(--brand-color-three);
   display: flex;
   margin-left: auto;
 }
