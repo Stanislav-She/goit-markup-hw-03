@@ -113,6 +113,7 @@ img {
 }
 
 .link-studio {
+  display: inline-block;
   text-decoration: none;
   font-weight: 500;
   font-size: 14px;
@@ -451,6 +452,10 @@ img {
   line-height: 1.2;
   letter-spacing: 0.03em;
   color: var(--brand-color-four);
+}
+
+.contacts-list-portfolio > .link-portfolio {
+  display: inline-block;
 }
 
 .link-portfolio {
